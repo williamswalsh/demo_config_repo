@@ -1,5 +1,11 @@
+---
+spring:
+    profiles: production
+    
 my_app:
     system:
         first_key: This is from the configuration repository.
         second_key: 3.14
         third_key: 42
+
+---
