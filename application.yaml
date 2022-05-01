@@ -1,0 +1,4 @@
+my_special_app_config.system:
+    first_key: "This is from the configuration repository."
+    system.second_key=3.14
+    system.third_key=42
