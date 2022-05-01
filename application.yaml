@@ -4,8 +4,18 @@ spring:
     
 my_app:
     system:
-        first_key: This is from the configuration repository.
+        first_key: This is from the prod profile.
         second_key: 3.14
         third_key: 42
+
+---
+spring:
+    profiles: uat
+    
+my_app:
+    system:
+        first_key: This is from the uat profile.
+        second_key: 3.333333
+        third_key: 99
 
 ---
