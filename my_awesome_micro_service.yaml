@@ -6,7 +6,7 @@ spring:
             on-profile: prod
 my:
   config:
-    item: "3VN_M0R3_T0p$3Cr3+"
+    item: "3V3N_M0R3_T0p$3Cr3+"
 
 ---
 spring:
