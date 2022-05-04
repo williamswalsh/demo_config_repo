@@ -1,15 +1,18 @@
 
 ---
 spring:
-    profiles: prod
-    
+    config:
+        activate:
+            on-profile: prod
 my:
   config:
     item: "3VN_M0R3_T0p$3Cr3+"
 
 ---
 spring:
-    profiles: uat
+    config:
+        activate:
+            on-profile: uat
     
 my:
   config:
