@@ -1,6 +1,12 @@
+some:
+    common:
+        config:
+            item: hello world, let's hold hands.
 ---
 spring:
-    profiles: prod
+    config:
+        activate:
+            on-profile: prod
     
 my_app:
     system:
@@ -10,7 +16,9 @@ my_app:
 
 ---
 spring:
-    profiles: uat
+    config:
+        activate:
+            on-profile: uat
     
 my_app:
     system:
