@@ -1,5 +1,18 @@
 
+---
+spring:
+    profiles: prod
+    
 my:
   config:
-    item: "T0p$3Cr3+"
+    item: "3VN_M0R3_T0p$3Cr3+"
+
+---
+spring:
+    profiles: uat
     
+my:
+  config:
+    item: "$3Cr3+"
+
+---
