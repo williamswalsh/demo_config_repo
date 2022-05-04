@@ -1,6 +1,6 @@
 ---
 spring:
-    profiles: production
+    profiles: prod
     
 my_app:
     system:
