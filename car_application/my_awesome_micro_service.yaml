@@ -1,0 +1,21 @@
+
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+my:
+  config:
+    item: "3V3N_M0R3_T0p$3Cr3+"
+
+---
+spring:
+    config:
+        activate:
+            on-profile: uat
+    
+my:
+  config:
+    item: "$3Cr3+"
+
+---
